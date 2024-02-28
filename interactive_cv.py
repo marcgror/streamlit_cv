@@ -9,7 +9,7 @@ st.sidebar.markdown('### Graphical and display options')
 st.sidebar.markdown('**Text size**')
 title_text_size = st.sidebar.slider(label='Please, select the text size:', min_value=10, max_value=100, value=16)
 with st.sidebar.expander('About me', True):
-    st.markdown('Data Analyst with experience in colorimetric')
+    st.markdown('Astrophysicist who traded stars and galaxies for data analysis')
 with st.expander('Experience', True):
     st.markdown('#### External IT Quality Technic (2017-2018): Tenea')
     st.markdown('- Validation of financial software in Windows environments')
@@ -17,11 +17,10 @@ with st.expander('Experience', True):
     st.markdown('- Training of the new Junior roles')
     st.divider()
     st.markdown('#### Color Data Analyst (2021-): Venture Services')
-    st.markdown('- design and execution of colorimetric tests')
-    st.markdown('- treatment data analysis of results')
-    st.markdown('- full design and implementation of a *PowerBI*-like data analysis and visualization platform using Streamlit')
-    st.markdown('- creation and maintenance of a MySQL Database')
-    st.divider()
+    st.markdown('- colorimetric tests design and execution from scratch')
+    st.markdown('- data cleaning, treatment and analysis of results to extract insights')
+    st.markdown('- designed and implemented a *PowerBI*-like data analysis and visualization platform using Streamlit')
+    st.markdown('- created and maintained a MySQL Database to structure large scale data')
 with st.expander('Skills', True):
     st.markdown('### :orange[General Python Tools]')
     skill_general_level = {'Pandas':80, 'Numpy':80, 'Streamlit':100, 'Jupyter Notebook':75}
