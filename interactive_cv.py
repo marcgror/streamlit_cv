@@ -22,6 +22,7 @@ with st.expander('Experience', True):
     st.markdown('- designed and implemented a *PowerBI*-like data analysis and visualization platform using Streamlit')
     st.markdown('- created and maintained a MySQL Database to structure large scale data')
 with st.expander('Skills', True):
+    st.info('Tip: numbers are indicative, by no means are an absolute grade of the listed skills')
     st.markdown('### :orange[General Python Tools]')
     skill_general_level = {'Pandas':80, 'Numpy':80, 'Streamlit':100, 'Jupyter Notebook':75}
     for sk, lv in skill_general_level.items():
@@ -41,6 +42,14 @@ with st.expander('Skills', True):
     st.markdown('### :blue[IDEs and more]')
     skill_tool_level = {'VS Code':75, 'MySQL':50, 'Github':60}
     for sk, lv in skill_tool_level.items():
+        col1, col2 = st.columns(2)
+        col1.markdown('*' + sk + '*')
+        lv_percentage = str(lv) + '%'
+        col2.progress(value=lv, text=lv_percentage)
+    st.divider()
+    st.markdown('### :green[Methodologies]')
+    skill_met_level = {'Scrum':100}
+    for sk, lv in skill_met_level.items():
         col1, col2 = st.columns(2)
         col1.markdown('*' + sk + '*')
         lv_percentage = str(lv) + '%'
