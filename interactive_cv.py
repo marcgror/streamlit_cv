@@ -4,12 +4,8 @@ import pandas as pd
 
 st.title('Marc Grau Ortiz')
 st.markdown('*Color Data Analyst*')
-# Display graphical tools
-st.sidebar.markdown('### Graphical and display options')
-st.sidebar.markdown('**Text size**')
-title_text_size = st.sidebar.slider(label='Please, select the text size:', min_value=10, max_value=100, value=16)
 with st.sidebar.expander('About me', True):
-    st.markdown('Astrophysicist who traded stars and galaxies for data analysis')
+    st.markdown('Astrophysicist who traded stars and galaxies for data analysis. Interested also in Machine Learning and Deep Learning, and in new and exciting fields as Quantum Computation and Quantum Information.')
 with st.expander('Experience', True):
     st.markdown('#### External IT Quality Technic (2017-2018): Tenea')
     st.markdown('- Validation of financial software in Windows environments')
@@ -19,8 +15,8 @@ with st.expander('Experience', True):
     st.markdown('#### Color Data Analyst (2021-): Venture Services')
     st.markdown('- colorimetric tests design and execution from scratch')
     st.markdown('- data cleaning, treatment and analysis of results to extract insights')
-    st.markdown('- designed and implemented a *PowerBI*-like data analysis and visualization platform using Streamlit')
-    st.markdown('- created and maintained a MySQL Database to structure large scale data')
+    st.markdown('- designed and implemented a *PowerBI*-like data analysis and visualization platform using *Streamlit*')
+    st.markdown('- created and maintained a *MySQL* Database to structure large scale data')
 with st.expander('Skills', True):
     st.info('Tip: numbers are indicative, by no means are an absolute grade of the listed skills')
     st.markdown('### :orange[General Python Tools]')
